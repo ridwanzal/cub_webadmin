@@ -64,7 +64,7 @@
   }
 ?>
 
-<!-- login awal-->
+<!-- login a-->
 <?php 
   if(isset($_POST['login_submit'])){
     $login_email = mysqli_real_escape_string($db, $_POST['login_email']);
