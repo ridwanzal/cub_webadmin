@@ -17,7 +17,7 @@
         <input type="password" name="login_password" id="login_input_pass" class="login_input" placeholder="Password"><br/>
         <input type="submit" name="login_submit" class="login_submit button_green" value="Login"><br/>
       </form>
-      <p id="forgot_pass">Forgot Password ? </p>
+      <!-- <p id="forgot_pass">Forgot Password ? </p> -->
       <p class="login_direct_register">Don't have an account ? <span id="go_register" class="link" title="Register now">Register</span> now</p>
     </div>
   </form>
