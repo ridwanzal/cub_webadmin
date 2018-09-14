@@ -1,6 +1,6 @@
 
 <!-- register user -->
-<?
+<?php
   // start session
   session_start();
 
@@ -65,7 +65,7 @@
 ?>
 
 <!-- login-->
-<? 
+<?php 
   if(isset($_POST['login_submit'])){
     $login_email = mysqli_real_escape_string($db, $_POST['login_email']);
     $login_password = mysqli_real_escape_string($db, $_POST['login_password']);
