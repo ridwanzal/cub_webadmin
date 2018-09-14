@@ -6,7 +6,7 @@
 </head>
   <title>Login | Cloud Inovasi</title>
 </head>
-<body>
+<body style="background:#fcfcfc;">
 <div class="login-wrapper">
   <form method="post" action="login.php">
     <div class="login_form_container">
