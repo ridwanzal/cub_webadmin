@@ -87,10 +87,10 @@
       if(mysqli_num_rows($result_for_login) == 1){
         $_SESSION['email'] = $login_email;
         $_SESSION['success'] = 'Youre now logged in';
-        header("location: views/adminview/index.php"); // direct after login
+        header("location: views/admin/index.php"); // direct after login
       }else{
         array_push($errors, "Wrong username/password combination");
-        // echo "<script>alert('Wrong username/ password combination')</script>";
+        // echo "<script>alert('Wrong username/ password combination')</script>"; 
       }
     }
 
