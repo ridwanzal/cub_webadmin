@@ -163,7 +163,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="index.html">
-                <span class="menu-title">Manager Users</span>
+                <span class="menu-title">Manager Usersgit </span>
                 <i class="icon-speedometer menu-icon"></i>
               </a>
             </li>
