@@ -18,6 +18,6 @@
 
   <?php include 'footer.php'; ?>
 </div>
-<script type="text/javascript" src="views/js/main.js"></script>
+<?php include 'module_async.php' ?>
 </body>
 </html>

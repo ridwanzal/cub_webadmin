@@ -1,5 +1,7 @@
 <?php
   echo '
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="icon" type="image/png" href="views/img/favicon.png" />
   <link rel="stylesheet" type="text/css" href="views/css/style.css">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
