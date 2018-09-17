@@ -1,5 +1,5 @@
-<?php include('model/server.php'); ?>
-<?php include('model/error.php'); ?>
+<?php require('model/server.php'); ?>
+<?php require('model/error.php'); ?>
 <?php
   echo '
     <section>
