@@ -3,7 +3,6 @@
   Jakarta
   Contributors : rwz | ridwanzal
 -->
-<? ?>
 <!DOCTYPE html>
 <html>
 <head>

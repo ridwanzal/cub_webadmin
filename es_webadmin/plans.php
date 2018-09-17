@@ -3,7 +3,6 @@
 <head>
   <title>FAQ - Cloud Inovasi</title>
   <?php include 'module_sync.php' ?>
-  
 </head>
 <body>
 <div class="main-wrapper">

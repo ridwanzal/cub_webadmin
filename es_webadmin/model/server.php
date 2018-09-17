@@ -90,7 +90,7 @@
         header("location: views/adminview/index.php"); // direct after login
       }else{
         array_push($errors, "Wrong username/password combination");
-        echo "<script>alert('Wrong username/ password combination')</script>";
+        // echo "<script>alert('Wrong username/ password combination')</script>";
       }
     }
 

@@ -6,13 +6,13 @@
 </head>
   <title>Login | Cloud Inovasi</title>
 </head>
-<body style="background:#fcfcfc;">
+<body style="background:#fcfcfc; overflow-x:hidden;">
 <div class="login-wrapper">
   <form method="post" action="login.php">
     <div class="login_form_container">
     <img src="views/img/logo_gray.png" class="login" width="120">
     <p class="login_data_info"></p>
-      <form class="form_ogin">
+      <form class="form_login">
         <input type="text" name="login_email" id="login_input_email" class="login_input" placeholder="Email Address"><br/>
         <input type="password" name="login_password" id="login_input_pass" class="login_input" placeholder="Password"><br/>
         <input type="submit" name="login_submit" class="login_submit button_green" value="Login"><br/>
@@ -24,3 +24,4 @@
 </div>
   <?php include 'module_async.php' ?>
 </body>
+</html>
