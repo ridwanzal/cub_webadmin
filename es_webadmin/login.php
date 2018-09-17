@@ -11,7 +11,7 @@
   <form method="post" action="login.php">
     <div class="login_form_container">
     <img src="views/img/logo_gray.png" class="login" width="120">
-    <p class="login_data_info">Sign In</p>
+    <p class="login_data_info"></p>
       <form class="form_ogin">
         <input type="text" name="login_email" id="login_input_email" class="login_input" placeholder="Email Address"><br/>
         <input type="password" name="login_password" id="login_input_pass" class="login_input" placeholder="Password"><br/>

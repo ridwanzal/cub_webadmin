@@ -186,7 +186,7 @@
               <a class="dropdown-item">
                 Check Inbox
               </a>
-              <a class="dropdown-item" href="../../glogout.php">
+              <a class="dropdown-item" href="../../logout.php">
                 Sign Out
               </a>
             </div>

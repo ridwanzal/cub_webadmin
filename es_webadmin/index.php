@@ -9,6 +9,7 @@
 <head>
   <title>CUB webadmin</title>
   <?php include 'module_sync.php' ?>
+  <?php include 'main.php' ?>
 </head>
 <body>
 <div class="main-wrapper">
