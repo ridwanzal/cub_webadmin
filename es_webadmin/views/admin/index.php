@@ -20,15 +20,14 @@
         <!-- Sidebar  -->
         <nav id="sidebar">
             <div class="sidebar-header">
-                <h3>Bootstrap Sidebar</h3>
-                <strong>BS</strong>
+                <img src="../img/logo.png" style="width : 90%;">
             </div>
 
             <ul class="list-unstyled components">
                 <li class="active">
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                    <a href="index.php" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                         <i class="fas fa-home"></i>
-                        Home
+                        Dashboard
                     </a>
                     <ul class="collapse list-unstyled" id="homeSubmenu">
                         <li>
@@ -43,11 +42,11 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="index.php">
                         <i class="fas fa-briefcase"></i>
-                        About
+                        Manage Users
                     </a>
-                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                    <a href="index.php" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                         <i class="fas fa-copy"></i>
                         Pages
                     </a>
@@ -64,19 +63,19 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="index.php">
                         <i class="fas fa-image"></i>
-                        Portfolio
+                        Report
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="index.php">
                         <i class="fas fa-question"></i>
-                        FAQ
+                        Monitoring
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="index.php">
                         <i class="fas fa-paper-plane"></i>
                         Contact
                     </a>
@@ -107,7 +106,7 @@
                         <i class="fas fa-align-justify"></i>
                     </button>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent" style=" text-align: right;">
                         <ul class="nav navbar-nav ml-auto">
                             <li class="nav-item active">
                                 <a class="nav-link" href="#">Page</a>
@@ -119,7 +118,9 @@
                                 <a class="nav-link" href="#">Page</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Page</a>
+                                <a class="nav-link" href="#">
+                                    <img src="../img/features.png" class="user-img" style="width: 8%;">
+                                </a>
                             </li>
                         </ul>
                     </div>
