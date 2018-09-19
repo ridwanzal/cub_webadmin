@@ -1,8 +1,7 @@
 <nav id="sidebar">
     <div class="sidebar-header">
-        <h3>Bootstrap Sidebar</h3>
-        <strong>BS</strong>
-    </div>
+                <img src="../img/logo.png" class="img-logo">
+            </div>
 
     <ul class="list-unstyled components">
                 <li class="active">
