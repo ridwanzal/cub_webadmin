@@ -20,7 +20,7 @@
         <!-- Sidebar  -->
         <nav id="sidebar">
             <div class="sidebar-header">
-                <img src="../img/logo.png" style="width : 90%;">
+                <img src="../img/logo.png" class="img-logo">
             </div>
 
             <ul class="list-unstyled components">
@@ -42,7 +42,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="index.php">
+                    <a href="content_report.php">
                         <i class="fas fa-briefcase"></i>
                         Manage Users
                     </a>
@@ -106,9 +106,9 @@
                         <i class="fas fa-align-justify"></i>
                     </button>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent" style=" text-align: right;">
-                        <ul class="nav navbar-nav ml-auto">
-                            <li class="nav-item active">
+                    <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto text-right">
+                            <!-- <li class="nav-item active">
                                 <a class="nav-link" href="#">Page</a>
                             </li>
                             <li class="nav-item">
@@ -116,11 +116,14 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Page</a>
-                            </li>
+                            </li> -->
                             <li class="nav-item">
                                 <a class="nav-link" href="#">
                                     <img src="../img/features.png" class="user-img" style="width: 8%;">
                                 </a>
+                                <span class="as-user-log">
+                                    sign in as username     
+                                </span>
                             </li>
                         </ul>
                     </div>

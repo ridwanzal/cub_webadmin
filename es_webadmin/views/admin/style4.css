@@ -253,6 +253,10 @@ a.article, a.article:hover {
     width: 8%;
 }
 
-.navbar-collapse {
-    text-align: right;
+.img-logo {
+    width: 90%;
+}
+
+.as-user-log {
+    font-size: 10px;
 }
