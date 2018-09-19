@@ -3,7 +3,7 @@
 */
 
 body {
-    font-family:  'PT Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     background: #fafafa;
 }
 
@@ -257,5 +257,9 @@ a.article, a.article:hover {
 }
 
 .as-user-log {
-    font-size: 18px;
+    font-size: 14px;
+}
+
+.nav-item {
+    text-align: right;
 }
