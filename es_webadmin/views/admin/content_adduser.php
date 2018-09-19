@@ -42,7 +42,7 @@
                                                 <label>Email</label>
                                                 <input name="email" id="email" type="text"  class="form-control">
                                                 <label>Alamat</label>
-                                                <textara name="alamat" id="alamat" type="text"  class="form-control"></textara>
+                                                <textarea name="alamat" id="alamat"  class="form-control"></textarea>
                                                 <label>Status</label>
                                                 <select  id="status"  name="status" class="form-control">
                                                     <option selected="selected" value="Y">Aktif</option>
