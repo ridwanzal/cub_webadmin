@@ -3,7 +3,10 @@
 <?php include './side_menu.php';?>
 <script type="text/javascript">
     $(document).ready(function() {
-        $('.table-paginate').dataTable();
+        $('.table-paginate').DataTable({
+            "pagingType": "simple" // "simple" option for 'Previous' and 'Next' buttons only
+        });
+        // $('.dataTables_length').addClass('bs-select');
  } );
 </script>
 
