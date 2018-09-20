@@ -12,7 +12,7 @@
                 </div>
                 <div class="table-responsive">
                     <form method="post" name="form1" action="proses.php">
-                        <table border="1" class="table table-hover table-striped" id="_tbl">
+                        <table class="table table-hover table-striped" id="_tbl">
                             <thead>
                                 <tr>
                                     <th align="center"><button type="submit" name="drop_rekening" title="delete all"><img src="../asset/img/drop.png" width="25" height="25" onclick ="return confirm('Anda yakin ?');"/></button></th>

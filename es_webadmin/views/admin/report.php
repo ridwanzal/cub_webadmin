@@ -1,21 +1,13 @@
 <?php include '../../model/connection.php';?>
 <?php include './links.php';?>
 <?php include './side_menu.php';?>
-<script type="text/javascript">
-    $(document).ready(function() {
-        $('.table-paginate').DataTable({
-            "pagingType": "simple" // "simple" option for 'Previous' and 'Next' buttons only
-        });
-        // $('.dataTables_length').addClass('bs-select');
- } );
-</script>
 
     <div id="content">
         <?php include 'header.php'; ?> 
 
         <div class="table-responsive table-paginate">
-            <table class="table">
-                <thead>
+            <table class="table"  id="_tbl">
+                <thead class="thead-light">
                     <tr>
                     <th scope="col">#</th>
                     <th scope="col">Browser</th>
@@ -28,14 +20,14 @@
                     $no = 1;
                     while ($rows = mysqli_fetch_array($query)) {
                 ?>
-                <tbody>
+                <!-- <tbody> -->
                     <tr>
                         <td><?php echo $no++; ?></td>
                         <td><?php echo $rows['browser']; ?></td>
                         <td><?php echo $rows['os']; ?></td>
                         <td><?php echo $rows['status']; ?></td>
                     </tr>
-                </tbody>
+                <!-- </tbody> -->
                 <?php } ?>
             </table>
         </div>
