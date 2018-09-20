@@ -23,7 +23,7 @@
             <div class="main-content">
 
                 <div class="btn-toolbar list-toolbar">
-                    <a class="btn btn-primary" href="admin"><i class="fa fa-plus"></i></a>
+                    <a class="btn btn-primary" href="./content_adduser.php"><i class="fa fa-plus"></i></a>
                 </div>
                 <div class="table-responsive">
                     <form method="post" name="form1" action="proses.php">
