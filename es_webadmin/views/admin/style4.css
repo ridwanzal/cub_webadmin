@@ -246,10 +246,11 @@ a.article, a.article:hover {
     }
 }
 
-/* added by umi */
+/*======= added by umi ==========*/
 
 .user-img {
     width: 8%;
+    height: 8%;
 }
 
 .img-logo {
@@ -263,3 +264,9 @@ a.article, a.article:hover {
 .nav-item {
     text-align: right;
 }
+
+.toggle-user {
+    /* font-size: 12px; */
+}
+
+/*===============================*/
