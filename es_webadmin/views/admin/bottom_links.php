@@ -8,6 +8,10 @@
 <script src="../../lib/jquery/dist/jquery-1.11.1.min.js"></script>
 <script src="../js/module_insert.js"></script>
 <script src="../../lib/bootstrap/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" language="javascript" src="path-to/jquery-1.10.2.min.js"></script>
+<!-- Jquery DataTables -->
+<script type="text/javascript" language="javascript" src="../../lib/DataTables-1.10.18/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" language="javascript" src="../../lib/DataTables-1.10.18/js/dataTables.bootstrap.js"></script>
 <script type="text/javascript">
     $(document).ready(function () {
         $('#_tbl').dataTable();
