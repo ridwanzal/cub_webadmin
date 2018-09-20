@@ -14,7 +14,7 @@
 <script type="text/javascript" language="javascript" src="../../lib/DataTables-1.10.18/js/dataTables.bootstrap.js"></script>
 <script type="text/javascript">
     $(document).ready(function () {
-        $('#_tbl').dataTable();
+        $('#_tbl').DataTable();
     })
 </script>
 <script type="text/javascript">
