@@ -1,3 +1,14 @@
+<?php
+session_start();
+$email = $_SESSION['email'];
+$result = mysqli_query($conn, "SELECT * FROM user WHERE email = '$email'");
+
+while ($row = mysqli_fetch_array($result)) {
+    $email = $row['email'];
+    $uName = $row['username'];
+}
+?>
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
 
@@ -14,7 +25,7 @@
                     </a>
                     <div class="btn-group">
                         <button type="button" class="btn dropdown-toggle toggle-user" data-toggle="dropdown">
-                            Sign as -Username- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            Sign In as <?php echo $uName ?> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </button>
                         <div class="dropdown-menu dropdown-menu-right">
                             <button class="dropdown-item" type="button" onclick="location.href='../../logout.php';" >Sign Out</button>
