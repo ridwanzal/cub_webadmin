@@ -13,7 +13,7 @@
                                 <div class="panel panel-default">  
                                     <p class="panel-heading">Form Admin</p>
                                     <div class="panel-body">	  
-                                        <form id="tab" action="proses" method="post" enctype="multipart/form-data">
+                                        <form id="tab" action="" method="post" enctype="multipart/form-data">
                                             <div class="form-group">
                                                 <label>Name</label>
                                                 <input name="name" id="name" type="text"  class="form-control">
@@ -22,7 +22,7 @@
                                                 <label>Password</label>
                                                 <input name="password" id="password" type="password"  class="form-control">
                                                 <label>Telephone</label>
-                                                <input name="telp" id="telp" type="text"  class="form-control">
+                                                <input name="tlpn" id="tlpn" type="text"  class="form-control">
                                                 <label>Email</label>
                                                 <input name="email" id="email" type="text"  class="form-control">
                                                 <label>Alamat</label>
@@ -34,7 +34,7 @@
                                                 </select>
                                             </div>
                                             <div class="form-group">
-                                                <input type="submit" name="input_user" value="submit" class="btn btn-primary">
+                                                <input type="submit" name="input_user" id="input_user" value="submit" class="btn btn-primary">
                                             </div>
                                     </div>
                                     </form>
